@@ -1,0 +1,18 @@
+{
+  "name": "ipl-dataset",
+  "version": "1.0.0",
+  "description": "MatchesPlayedPerYear\r MatchesWonByEachTeam\r ExtraRunsConcenedByEachTeamIn2016\r TopTenEconomicalBowlersIn2015\r MatchesWonByEachTeamVsVenue",
+  "main": "index.js",
+  "scripts": {
+    "data": "node index.js",
+    "start": "http-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "dom-to-pdf": "^0.3.2",
+    "http-server": "^14.1.1"
+  }
+}
